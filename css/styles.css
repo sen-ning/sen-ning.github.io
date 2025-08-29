@@ -23,7 +23,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -45,10 +45,16 @@ nav {
     padding: 20px 0;
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
 .nav-social-icons {
     display: flex;
     gap: 15px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .nav-social-icons a {
