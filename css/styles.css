@@ -44,6 +44,29 @@
             align-items: center;
             padding: 20px 0;
         }
+
+        .nav-social-icons {
+            display: flex;
+            gap: 15px;
+            padding: 20px 0;
+        }
+        
+        .nav-social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: black;
+            border-radius: 50%;
+            transition: var(--transition);
+        }
+        
+        .nav-social-icons a:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-3px);
+        }
         
         .logo {
             display: flex;
