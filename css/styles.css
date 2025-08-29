@@ -78,8 +78,8 @@ nav {
   height: 40px;
   border-radius: 50%;
   border: none;
-  background-color: #5a7e62; /* 与品牌绿色呼应 */
-  color: white;
+  background-color: white;
+  color: #5a7e62; /* 与品牌绿色呼应 */
   font-size: 16px;
   cursor: pointer;
   display: flex;
